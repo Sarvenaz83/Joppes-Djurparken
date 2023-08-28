@@ -20,17 +20,19 @@ namespace Zoo
         private void buttonVisitor_Click(object sender, EventArgs e)
         {
             VisitorInfo info = new VisitorInfo();
-            Start start = new Start();
             info.Show();
-            start.Hide();
+            this.Hide();
+            
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Login login = new Login();
-            Start start = new Start();
             login.Show();
-            start.Hide();
+            this.Hide();
+            
+            
         }
     }
 }

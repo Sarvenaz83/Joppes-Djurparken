@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Zoo
 {
-    public partial class VisitorInfo : Form
+    public partial class SkötareDashboard : Form
     {
-        public VisitorInfo()
+        public SkötareDashboard()
         {
             InitializeComponent();
-        }
-
-        private void labelAnimalInfo_Click(object sender, EventArgs e)
-        {
-            AnimalInfo animalInfo = new AnimalInfo();
-            animalInfo.Show();
-            this.Close();
         }
     }
 }

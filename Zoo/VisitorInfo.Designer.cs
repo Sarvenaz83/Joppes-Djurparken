@@ -292,6 +292,7 @@
             this.Controls.Add(this.panelVisitor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VisitorInfo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VisitorInfo";
             this.panelVisitor.ResumeLayout(false);
             this.panelVisitor.PerformLayout();

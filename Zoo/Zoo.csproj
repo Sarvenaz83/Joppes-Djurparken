@@ -58,6 +58,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="SkötareDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkötareDashboard.Designer.cs">
+      <DependentUpon>SkötareDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Start Sidan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SkötareDashboard.resx">
+      <DependentUpon>SkötareDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Start Sidan.resx">
       <DependentUpon>Start Sidan.cs</DependentUpon>
     </EmbeddedResource>
